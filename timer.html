@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+	<script src="scripts/window.js"></script>
+	<link rel="stylesheet" href="styles/window.css">
+</head>
+<body>
+    <button id="close">X</button>
+    <div id="main">
+      <pre id="time">00:00</pre>
+      <span id="time_i_s" class="hidden">
+      <input id="time_i" value="0" / > min
+      </span>
+      <button id="play">&#9658;</button>
+      <button id="mode">&#8634;</button>      
+      <button id="pause" class="hidden">&#10073;&#10073;</button>
+      <button id="stop" class="hidden">&#9724;</button>
+    </div>
+    <div id="delays" class="hidden">
+        <button>1</button>      
+        <button>5</button>
+        <button>10</button>        
+    </div>
+    <div id="prog" class="hidden"></div>
+    <audio src="sound.mp3" loop="true" id="beep"></audio>
+</body>
+</html>
